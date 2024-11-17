@@ -26,7 +26,7 @@ Anomaly Detection: Autoencoders can recognize patterns in normal data. If they e
 # AutoEncoders in the context of Anomaly Detection
 An autoencoder is trained to replicate its input as accurately as possible in its output, minimizing the difference between the input and the reconstructed output. This difference, known as reconstruction error, is a key factor in anomaly detection. During training, the autoencoder learns patterns from "normal" data. When tested on new data, the autoencoder performs well on data similar to the training set, producing low reconstruction errors. However, for anomalous data the autoencoder struggles to reconstruct them accurately, resulting in a higher reconstruction error. By setting a threshold for reconstruction error based on the normal data, we can detect anomalies: if the error exceeds the threshold, the input is flagged as an anomaly. 
 
-# Explain the with the MNIST dataset, code, and rationale for using Autoencoders over other techniques(LateR)
+# Explain the MNIST dataset, code, and rationale for using Autoencoders over other techniques(LateR)
 
 
 
